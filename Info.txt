@@ -1,0 +1,26 @@
+
+
+/* .MacroCentro_Oeste{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 790px;
+    padding: 0;
+    margin: 0;
+}
+.MacroCentral_Norte{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 790px;
+    padding: 0;
+    margin: 0;
+}
+.MacroCentral_Sur{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 790px;
+    padding: 0;
+    margin: 0;
+} */
