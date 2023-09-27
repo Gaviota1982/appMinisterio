@@ -1,4 +1,4 @@
-
+tamoño en pixeles de la seccion: 1519.200x860
 
 /* .MacroCentro_Oeste{
     display: none;
@@ -24,3 +24,21 @@
     padding: 0;
     margin: 0;
 } */
+
+<!-- <img class="Regiones MacroOeste" src="img/OESTE.png" usemap="#image-map" alt="Región Oeste">
+            <img class="Regiones MacroCentro_Oeste" src="img/CENTRO_OESTE.png" usemap="#image-map" alt="Región Centro Oeste">
+            <img class="Regiones MacroCentral_Norte" src="img/CENTRAL_NORTE.png" usemap="#image-map" alt="Región Central Norte">
+            <img class="Regiones MacroCentral_Sur" src="img/CENTRAL_SUR.png" usemap="#image-map" alt="Región Central Sur">
+            <img class="Regiones MacroSubtropical" src="img/SUBTROPICAL_NORTE.png" usemap="#image-map" alt="Región Subtropical Norte">
+            <img class="Regiones MacroPiraneNorte" src="img/PIRANE_NORTE.png" usemap="#image-map" alt="Región Pirané Norte">
+            <img class="Regiones MacroPiraneSur" src="img/PIRANE_SUR.png" usemap="#image-map" alt="Región Pirané Sur">
+            <img class="Regiones MacroLitoral" src="img/LITORAL.png" usemap="#image-map" alt="Región Litoral"> -->
+
+imagen.className = "imgOeste";
+imagen.src = "/img/OESTE.png";
+imagen.usemap="#image-map";
+imagen.alt = "Región Oeste";
+seccionMapa.appendChild(imagen);
+
+document.getElementsById("idOeste").classList.add("MacroOeste");
+document.getElementsById("idOeste").classList.remove("Regiones");

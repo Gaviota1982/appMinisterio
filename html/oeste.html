@@ -4,26 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Región Oeste</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div class="contenedor">
-      <section class="Sec">
-        <div class="video">
-          <h2>Producción en la Región Oeste</h2>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/22KyrQFGq4M"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-          <br />
-          <a href="/index.html">Mapa</a>
-        </div>
+      <a href="../index.html">Inicio</a>
+      <section>
+          <video class="video" src="../video/OESTE.mp4" width="1519" height="860" autoplay controls></video>
       </section>
     </div>
+    <script>
+      function volverIndex(){
+        window.location ="../index.html";
+      }
+      setTimeout("volverIndex()",174000);
+    </script>
   </body>
 </html>
