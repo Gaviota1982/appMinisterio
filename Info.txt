@@ -42,3 +42,4 @@ seccionMapa.appendChild(imagen);
 
 document.getElementsById("idOeste").classList.add("MacroOeste");
 document.getElementsById("idOeste").classList.remove("Regiones");
+Esto es un registro para revisar
